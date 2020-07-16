@@ -9,21 +9,25 @@ class abou extends StatelessWidget {
       ),
       body: Center(
         child: Container(
+          decoration: BoxDecoration(
+            color: Colors.grey[900],
+            borderRadius: BorderRadius.circular(15)
+          ),
+          padding: EdgeInsets.all(10),
           height: 250,
           width: 350,
           child: Center(
-            child: Card(
-              margin: EdgeInsets.all(10),
-              color: Colors.grey[900],
-              child: Column(
+            child:
+               Column(
+                 mainAxisAlignment: MainAxisAlignment.center,
                 children: <Widget>[
                   SizedBox(height: 25,),
-                  Center(child: Text("All images are obtained from Wikipedia ",style: TextStyle(fontFamily: "Girassol",fontWeight: FontWeight.bold,fontSize: 20, letterSpacing: 1.2),)),
+                  Center(child: Text("All images are obtained from Wikipedia ",style: TextStyle(fontFamily: "Girassol",fontWeight: FontWeight.bold,fontSize: 20, letterSpacing: 1.5),)),
                   SizedBox(height: 25,),
                   Center(child: Text("Hope u Guys will like this App. Any Suggestion is highly Welcomed.",style: TextStyle(fontFamily: "Girassol",fontWeight: FontWeight.bold,fontSize: 20, letterSpacing: 1.5),))
                 ],
               ),
-            ),
+
           ),
         ),
       ),

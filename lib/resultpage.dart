@@ -26,42 +26,46 @@ class _resultState extends State<result> {
   house=jsonDecode(widget.abc)[widget.yz]['house']??"Not Applicable";
   blood=jsonDecode(widget.abc)[widget.yz]['bloodStatus']??"Not Applicable";
   species=jsonDecode(widget.abc)[widget.yz]['species']??"Not Applicable";
-  if(widget.xy=="James Potter I"){
+  if(widget.xy=="James Potter I") {
     role="Father of Harry Potter";
   }
-  if(widget.xy=="Lily J. Potter"){
+  if(widget.xy=="Lily J. Potter") {
     role="Mother of Harry Potter";
   }
-  if(widget.xy=="Regulus Black"){
+  if(widget.xy=="Regulus Black") {
     role="Brother of Sirius Black";
   }
-  if(widget.xy=="Lord Voldemort"){
+  if(widget.xy=="Lord Voldemort") {
     role="Murderer of Harry Potter's Parents";
   }
-  if(widget.xy=="Bellatrix Lestrange"){
+  if(widget.xy=="Bellatrix Lestrange") {
     role="Pure Blood Dark Witch";
   }
-  if(widget.xy=="Minerva McGonagall"){
+  if(widget.xy=="Minerva McGonagall") {
     house="Head of Gryffindor House";
   }
-  if(widget.xy=="Filius Flitwick"){
+  if(widget.xy=="Filius Flitwick")
+  {
     house="Head of RavenClaw House";
   }
-  if(widget.xy=="Severus Snape"){
+  if(widget.xy=="Severus Snape") {
     house="Head of Slytherin House";
   }
-  if(widget.xy=="Pomona Sprout"){
+  if(widget.xy=="Pomona Sprout") {
     house="Head of Hufflepuff House";
   }
 
-  if(widget.xy=="Godric Gryffindor"){
+  if(widget.xy=="Godric Gryffindor") {
     house="Gryffindor (Founder)";
   }
   if(widget.xy=="Rowena Ravenclaw"){
     house="Ravenclaw (Founder)";
-  }if(widget.xy=="Salazar Slytherin"){
+  }
+  if(widget.xy=="Salazar Slytherin")
+  {
     house="Slytherin (Founder)";
-  }if(widget.xy=="Helga Hufflepuff"){
+  }
+  if(widget.xy=="Helga Hufflepuff"){
     house="Hufflepuff (Founder)";
   }
   }
