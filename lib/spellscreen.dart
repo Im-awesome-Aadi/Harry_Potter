@@ -48,6 +48,7 @@ String abc;
       children: <Widget>[
         TextField(
           decoration: InputDecoration(
+            prefixIcon:  Icon(Icons.search,color: Colors.white,),
               contentPadding: EdgeInsets.all(10),
               hintText: 'Search By Spell Name'
           ),
