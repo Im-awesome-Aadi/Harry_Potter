@@ -143,8 +143,13 @@ class _housesState extends State<houses> {
                                 flex:11,
                                 child: Container(
                                     margin: EdgeInsets.fromLTRB(0, 7, 0, 5),
-                                    child :FadeInImage.assetNetwork(image:'https://thegarnetmine.com/wp-content/uploads/2020/03/Slytherin-House-Crest.jpg'
-                                      ,placeholder: 'assets/loading.gif',)
+                                    child :ClipRRect(
+                                      borderRadius: BorderRadius.circular(15),
+                                      child: FadeInImage.assetNetwork(image:'https://i.pinimg.com/originals/1d/5e/77/1d5e77cff02ae6c9747e5f9a8d47b18b.jpg'
+                                        ,placeholder: 'assets/loading.gif',
+                                        
+                                        ),
+                                    )
                                 ),
                               ),
                               SizedBox(
