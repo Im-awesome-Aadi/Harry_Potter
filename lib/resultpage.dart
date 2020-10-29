@@ -105,23 +105,7 @@ class _resultState extends State<result> {
                     ),
                   )
               ),
-              /*Card(
-                  elevation: 8,
-                  margin: EdgeInsets.all(15),
-                  color: Colors.black45,
-                  child: Container(
-                    padding: EdgeInsets.all(15),
-                    width: 300,
-                    height: 130,
-                    child: Column(
-                      mainAxisAlignment: MainAxisAlignment.center,
-                      children: <Widget>[
-                        Text('Role',style: TextStyle(fontFamily: 'Girassol',fontWeight: FontWeight.bold, fontSize: 30,color: Colors.green, letterSpacing: 1.2),),
-                        Text('${role}', style: TextStyle(fontFamily: 'Girassol',fontWeight: FontWeight.bold, fontSize: 23, letterSpacing: 1.2),),
-                      ],
-                    ),
-                  )
-              ),*/
+              SizedBox(height: 10),
               Card(
                   elevation: 8,
                   margin: EdgeInsets.all(15),
