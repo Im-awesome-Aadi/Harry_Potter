@@ -6,9 +6,9 @@ class err extends StatelessWidget {
     return Center(
       child: Container(
         margin: EdgeInsets.all(25),
-        height: 200,
-        width: 300,
-        child: Text('Error! Try Again',style: TextStyle(fontFamily: "Girassol",fontSize: 20, letterSpacing: 1.5),),
+        height: 250,
+        width: 350,
+        child: Text('Error! Abey dobara try kr',style: TextStyle(fontFamily: "Girassol",fontSize: 20, letterSpacing: 1.5),),
       ),
     );
   }
